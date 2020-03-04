@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.coming-soon{
+    color: white;
+	float:left;
+	animation-name: fade;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes fade {
+    0%   {opacity:0}
+    50%  {opacity:1}
+    100% {opacity:0}
+  }
